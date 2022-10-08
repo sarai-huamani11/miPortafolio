@@ -11,7 +11,7 @@ html{
 }
 /* MENU */
 .contenedor-header{
-    background: #1e2326;
+    background: salmon; /* cambie el color del encabezado*/
     position: fixed;
     width: 100%;
     top: 0;
@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color: rgb(146, 31, 121); /* cambie el color del nombre del logo*/
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -38,18 +38,18 @@ html{
 }
 .contenedor-header header nav ul li a{
     text-align: none;
-    color: #fff;
+    color: black;/* cambie el color de la letra de sub temas del emcabezado */
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color: #e63b74;
 }
 .nav-responsive{
-    background-color: #1CB698;
-    color:#fff;
+    background-color: #e63b74;
+    color:black;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -57,17 +57,17 @@ html{
 }
 /* SECCION I N I C I O */
 .inicio{
-    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    background: linear-gradient(to top, rgba(30,35,38,.6), rgba(30,35,38,.7)),
+    url(img/selem.jpeg);/* cambie la imagen de fondo*/
     background-size: cover;
-    height: 100vh;
-    color: #fff;
+    height: 150vh; /* cambie el tamaño del cuadro del perfil*/
+    color: black;/* cambie el color de la letra del perfil */
     display: flex;
     align-items: center;
 }
 .inicio .contenido-banner{
-    padding: 20px;
-    background-color: #1e2326;
+    padding: 10px;
+    background-color: rgb(224, 148, 201) ; /* cambie el  del cuadro*/
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -75,7 +75,7 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #1CB698;
+    border: 10px solid #b91964; /*cambie el color del contorno de la foto de perfil*/
     display: block;
     width: 80%;
     margin: auto;
@@ -104,11 +104,11 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #e63b74; /*cambie el color*/
 }
 .sobremi{
-    background-color: #1e2326;
-    color: #fff;
+    background-color: rgb(224, 148, 201);/*cambie el color del fondo*/
+    color: black;/*cambie el color de la letra*/
     padding: 50px 20px;
 }
 .sobremi .contenido-seccion{
@@ -128,7 +128,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #e63b74; /*cambie el color*/
     font-weight: bold;
 }
 .sobremi .fila{
@@ -151,11 +151,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #e63b74; /*cambie el color*/
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color: #e63b74; /*cambie el color*/
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -167,7 +167,7 @@ html{
 .sobremi .fila .col .contenedor-intereses .interes{
     width: 100px;
     height: 100px;
-    background-color: #252A2E;
+    background-color: bisque;/*cambie el color del fondo exterior */
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
@@ -176,7 +176,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    background-color: #e63b74;/*cambie el color del fondo interior*/
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -185,13 +185,13 @@ html{
 .sobremi button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid black;/*cambie el borde del buton de descargar cv*/
     width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: #fff;
+    color: black;/*cambie el color de la letra del buton*/
     position: relative;
     z-index: 10;
 }
@@ -201,17 +201,17 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #e63b74; /*cambie el color del fondo de buton*/
     z-index: -1;
     transition: 1s;
 }
 .sobremi button:hover .overlay{
     width: 100%;
 }
-/* SECCION S K I L L S */
+/* SECCION HABILIDADES */
 .skills{
-    background-color: #252A2E;
-    color: #fff;
+    background-color: mediumturquoise;/*cambie el color del fondo */
+    color: black; /*cambie el color de la letra*/
     padding: 50px 20px;
 }
 .skills .contenido-seccion{
@@ -250,7 +250,7 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    background-color: #e63b74;
     position: absolute;
     top: 0;
     left: 0;
@@ -260,7 +260,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #e63b74;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -360,8 +360,8 @@ html{
 }
 /* SECCION CURRICULUM */
 .curriculum{
-    background-color: #1e2326;
-    color: #fff;
+    background-color:rgb(224, 148, 201);/*cambie el color del fondo */
+    color: black;/*cambie el color de la letra  */
     padding: 50px 20px;
 }
 .curriculum .contenido-seccion{
@@ -397,7 +397,7 @@ html{
 .curriculum .fila .item{
     padding: 25px;
     margin-bottom: 30px;
-    background-color: #252A2E;
+    background-color: navajowhite;/*cambie el color de los cuadros*/
     position: relative;
 }
 .curriculum .fila .item h4{
@@ -405,30 +405,30 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #1CB698;
+    color: #e63b74;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #1CB698;
+    color: #e63b74;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid #e63b74;
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #1CB698;
+    border-left: 2px solid #e63b74;
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #e63b74;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -440,14 +440,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #e63b74;
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #e63b74;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -459,15 +459,15 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #e63b74;
     float: left;
     position: relative;
     bottom: 4px;
 }
 /* SECCION PORTFOLIO */
 .portfolio{
-    background-color: #252A2E;
-    color: #fff;
+    background-color: mediumturquoise;/*cambie el color del fondo */
+    color: black;/*cambie el color de la letra */
     padding: 50px 20px;
 }
 .portfolio .contenido-seccion{
@@ -524,8 +524,8 @@ html{
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
-    background-color: #1e2326;
-    color: #fff;
+    background-color: rgb(224, 148, 201);/*cambie el color del fondo */
+    color: black;/*cambie el color de la letra */
     padding: 50px 0;
 }
 .contacto .contenido-seccion{
@@ -552,20 +552,20 @@ html{
     padding: 18px;
     border: none;
     margin-bottom: 20px;
-    background-color: #252A2E;
+    background-color: white;/*cambie el color del fondo del cuestionario */
     color: #fff;
     font-size: 18px;
 }
 .contacto button{
     cursor: pointer;
     background-color: transparent;
-    border: 2px solid #fff;
+    border: 2px solid black;/*cambie el color del borde de buton */
     width: fit-content;
     display: block;
     margin: 20px auto;
     padding: 10px 22px;
     font-size: 16px;
-    color: #fff;
+    color: black; /*cambie el color de la letra */
     position: relative;
     z-index: 10;
 }
@@ -575,7 +575,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #e63b74;/*cambie el color del fondo  del buton*/
     z-index: -1;
     transition: 1s;
 }
@@ -588,7 +588,7 @@ html{
 .contacto .col .info{
     position: absolute;
     top: 40%;
-    background-color: #252A2E;
+    background-color: sandybrown;/*cambie el color del fondo del cuadro de locacion  */
     padding: 20px;
     max-swidth: 350px;
     left: 50%;
@@ -601,12 +601,12 @@ html{
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #1CB698;
+    color: #e63b74;
     display: inline-block;
     margin-right: 20px;
 }
 footer{
-    background-color: #252A2E;
+    background-color: salmon;/* cambie el color del pie de pagina */
     color: #fff;
     padding: 50px 0 30px 0;
     text-align: center;
@@ -633,7 +633,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: #e63b74;
     color: #fff;
     position: absolute;
     left: 50%;

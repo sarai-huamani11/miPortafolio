@@ -59,7 +59,7 @@ html{
 .inicio{
     /* cambie de 0,5 a 6 tambien en lo siguiente 7*/
     background: linear-gradient(to top, rgba(30,35,38,.6), rgba(30,35,38,.7)),
-    url(img/estadio.png);
+    url(IMAGEN/fondo.jpg);
     background-size: cover;
     height: 99vh;
     color: rgb(25, 22, 244);
@@ -524,7 +524,7 @@ html{
 }
 /* SECCION CONTACTO */
 .contacto{
-    background-image: url(img/contact_bg.png);
+    background-image: url(IMAGEN/contact_bg.png);
     background-color: #040857;
     color: #fff;
     padding: 20px 0;
